@@ -1,0 +1,23 @@
+.smallCards {
+    display: flex;
+    flex-direction: row;
+    background-color: blanchedalmond;
+}
+
+
+#verticalCard, #horizontalCard {
+    flex: 1;
+    background-color: lightblue;
+}
+
+
+
+.bigCard {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 250, 205);
+}
+
+.scrollCard {
+    background-color: lightgreen;
+}
