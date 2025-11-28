@@ -1,45 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .smallCards {
     display: flex;
     flex-direction: row;
-    background-color: blanchedalmond;
 }
 
-#verticalCard, #horizontalCard{
-    flex: 1;
-    display: grid;
-    grid-template-columns: auto auto auto ;
-    grid-template-rows: auto auto auto auto auto auto;
-    grid-template-areas: 
-        "review review review "
-        "review review review "
-        ". . . "
-        "pfp name ."
-        "pfp title ."
-        ". . . ";
-    background-color: lightblue;
-    padding: 10px;
-}
 
-#verticalCard div.testimonial,
-#horizontalCard  div.testimonial {
-    grid-area: review;
-}
-
-#verticalCard div.profile,
-#horizontalCard  div.profile {
-    grid-area: pfp;
-}
-
-#verticalCard div.name,
-#horizontalCard  div.name {
-    grid-area: name;
-    background-color: aquamarine;
-}
-
-#verticalCard div.title,
-#horizontalCard  div.title {
-    grid-area: title;
-}
 
 .bigCard {
     display: flex;
