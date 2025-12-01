@@ -131,6 +131,59 @@ body {
 
 .scrollCard {
     margin: 10px 25px;
+    border: solid black;
+    border-radius: 15px;
+    font-weight: 3px;
     text-align: center;
-    background-color: lightgreen;
+}
+
+.scrollCard .testimonial {
+    margin: 25px 80px;
+}
+
+.scrollCard #scroll {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+}
+
+.scrollCard #scroll .profile,
+.scrollCard #scroll .profile-left,
+.scrollCard #scroll .profile-right {
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.scrollCard #scroll .profile-left,
+.scrollCard #scroll .profile-right {
+    opacity: 20%;
+}
+
+.scrollCard #scroll img {
+    object-position: -65px -45px;
+}
+
+.scrollCard .name {
+    margin-bottom: 50px;
 }
