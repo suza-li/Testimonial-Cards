@@ -19,4 +19,4 @@ HTML, CSS
 
 # Screenshot
 ### Testimonial Cards
-<img src="images/Testimonial Cards.png" width="400px" height=auto>
+<img src="images/Testimonial Cards.png" width="800px" height=auto>
