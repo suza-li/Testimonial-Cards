@@ -86,10 +86,51 @@ body {
     display: flex;
     flex-direction: row;
     margin: 10px 25px;
-    background-color: rgb(255, 250, 205);
+}
+
+.bigCard .profile {
+    overflow: hidden;
+    width: 800px;
+    height: 300px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+.bigCard img {
+    float: left;
+    object-position: -210px -140px;
+}
+
+.bigCard #content {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: black;
+    padding: 0 30px;
+    color: white;
+}
+
+.checked {
+  color: rgb(255, 187, 0);
+  font-size: 25px;
+  padding-top: 40px;
+}
+
+.bigCard #content h3 {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 32px;
+}
+
+.bigCard #content h5 {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 20px;
+    color: grey;
 }
 
 .scrollCard {
     margin: 10px 25px;
+    text-align: center;
     background-color: lightgreen;
 }
